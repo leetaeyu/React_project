@@ -1,0 +1,19 @@
+.formWrap {
+    display: flex;
+}
+.formWrap input {
+    flex: 1;
+    border-radius: 10px;
+    border: 1px solid #2d58d8;
+    line-height: 2.5;
+    text-indent: 10px;
+}
+.formWrap button {
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-left: 10px;
+    border:none;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+
+.depth1 {
+    position: relative;
+    width: 100px;
+}
+.depth1:hover:after{
+    position: absolute;
+    bottom:-5px;
+    left:0;
+    width: 100%;
+    height: 2px;
+    background-color: aqua;
+    content: '';
+}

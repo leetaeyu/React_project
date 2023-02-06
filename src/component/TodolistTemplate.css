@@ -1,0 +1,24 @@
+.todoWrap{
+    width: 100%;
+    background: #f8f8f8;
+    border-radius: 10px;
+    color: #6d5dfc;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: .2rem .2rem .6rem #c8d0e7, -.1rem -.1rem .5rem #fff;
+    display: flex;
+    gap: 50px;
+}
+.react-calendar{
+    width: 100% !important;
+    border: 0 !important;
+}
+.todoWrap>div{
+    width: 50%;
+}
+.wrapbox > h1 {
+    padding-bottom: 20px;
+}
+.two {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,18 @@
+.todoItem {
+    display: flex;
+    gap:20px;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ddd;
+    line-height: 2;
+}
+.remove {
+    opacity: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.todoItem:hover .remove{
+    opacity: 1;
+}
+.checked {
+    text-decoration: line-through;
+}
